@@ -1,0 +1,111 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(221, 0, 255);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    
+    background-color: darkred;
+    }
+
+    div{
+    align-content: center;
+    }
+
+    #logo{
+        
+        width: 110px;
+    }
+
+    .s1{
+        background-color: black;
+        display: flex;
+        
+    
+    }
+
+    #rbd{
+        height: 350px;
+    }
+
+    h1{
+        color: white;
+    }
+
+    .divtexto{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 12%;
+    }
+
+    .divtexto{
+        
+        color: white;
+    }
+
+    button{
+        
+        background-color: darkred;
+        border-radius: 10%;
+        color: white;
+        border-color: darkred;
+        font-family:fantasy ;
+    }
+
+    .s2{
+
+        display: flex;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        background-color:darkred;
+    }
+
+
+    #sejamembro{
+        margin-left: 30%;
+    }
+
+  .s2{
+    justify-content: center;
+  }
+
+    
+    #rbdtour{
+        width: 70%;
+        margin-left: 30%;
+    }
+
+    .video{
+        align-items:center;
+        justify-content:space-evenly;
+        padding: 2%;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    footer{
+        color: white;
+        padding: 1%;
+        background-color: darkred;
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center;
+    }
+    
+    #instalogo{
+    
+        width: 25px;
+        height: 25px;
+
+    }
+
+
+
+    #logovideo{
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+    }
