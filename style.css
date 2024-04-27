@@ -1,12 +1,11 @@
 html, body{
     margin: 0%;
-    padding: 0%;
-    background-color: rgb(221, 0, 255);
 }
 
 header{
+    padding: 5px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     
     background-color: darkred;
     }
@@ -17,14 +16,28 @@ header{
 
     #logo{
         
-        width: 110px;
+        width: 115px;
+        margin-left: 40%;
     }
 
     .s1{
         background-color: black;
         display: flex;
         
-    
+    }
+
+    .nav{
+        color:white;
+        margin-left: 1000%;
+        list-style: none;
+        display:flex;
+       
+    }
+
+    li{
+        color:white;
+        
+
     }
 
     #rbd{
@@ -46,12 +59,13 @@ header{
     }
 
     button{
-        
+        text-align: center;
+        margin-left: 30%;
         background-color: darkred;
         border-radius: 10%;
         color: white;
         border-color: darkred;
-        font-family:fantasy ;
+    
     }
 
     .s2{
@@ -64,17 +78,23 @@ header{
 
 
     #sejamembro{
-        margin-left: 30%;
+        margin-left: 10%;
     }
 
   .s2{
     justify-content: center;
   }
 
+  #enviarform{
+    background-color: white;
+    border: 0cap;
+    margin: 1%;
+  }
+
     
     #rbdtour{
         width: 70%;
-        margin-left: 30%;
+        margin-left: 25%;
     }
 
     .video{
@@ -85,6 +105,34 @@ header{
         background-color: rgb(255, 255, 255);
     }
 
+    .coments{
+        align-items: center;
+        padding: 10px;
+        display: grid;
+        justify-content: center;
+        color: white;
+        background-color: black;
+        
+    }
+
+    #Comentários{
+        resize: none;
+
+    }
+    .coments2{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    #coments2{
+        box-shadow: inset;
+        color: white;
+        background-color: darkred;
+        border-radius: 15%;
+        border-color: darkred;
+    }
 
     footer{
         color: white;

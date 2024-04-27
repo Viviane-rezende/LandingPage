@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Membro RBD</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -14,11 +14,13 @@
             <img src="images/logorbd.png" alt="" id="logo">
         </div>
         <div>
-            <ul>
-                <li>ício</li>
-                <li>Inscreva-se</li>
-                <li>Contato</li>
-            </ul>
+            <nav class="nav">
+            
+                    <a href="#instalogo">
+                        <li>Contato</li>
+                    </a>
+    
+            </nav>
         </div>
     </header>
 
@@ -31,22 +33,28 @@
             <h5>No clube você garante ingressos antecidapados, descontos<br>
                 e muito mais!</h5>
             <button>
-                Seja Membro
+                <h4>
+                    Seja Membro
+                </h4>
             </button>
         </div>
     </section>
 
     <section class="s2">
         <div class="form">
-            <h4 id="sejamembro"> Seja Membro Hoje e concorra a um Kit Caneca + Camiseta</h4>
+            <h3 id="sejamembro"> Seja Membro Hoje e Concorra a um Kit Caneca + Camiseta</h3>
             <form>
-                <label>Nome</label>
-                <input id="name"><br>
-                <label>Data de Nascimento:</label>
-                <input id="Data"><br>
-                <label>Integrante Favorito:</label>
-                <input id="">
-                
+                <label>Nome:</label>
+                <input type="text" id="Nome" name="Nome"><br>
+                <label>E-mail:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="Integrante"> Integrante Favorito:</label><br>
+                <input type="radio" id="Anahi" name="Integrante" value="Anahi">Anahí <br>
+                <input type="radio" id="Dulce Maria" name="Integrante" value="Dulce Maria">Dulce Maria <br>
+                <input type="radio" id="Maite Perroni" name="Integrante" value="Maite Perroni">Maite Perroni <br>
+                <input type="radio" id="Christopher" name="Integrante" value="Christopher">Christopher<br>
+                <input type="radio" id="Christian" name="Integrante" value="Crhistian">Christian<br>
+                <input type="submit" value="Enviar " id="enviarform">
             </form>
         </div>
         <div>
@@ -67,10 +75,19 @@
         </div>
     </section>
 
+    <div class="coments"><br>
+        <label for="Comentários">Deixe aqui o seu comentário:</label><br>
+        <textarea id="Comentários" name="Comentários" rows="5" cols="200"></textarea><br>
+    </div>
+
+    <div class="coments2">
+        <input type="submit" value="Comentar" id="coments2">
+    </div>
+
     <footer>
 
-    <p>Todos os direitos reservados</p>
-    <img src="images/instagram.png" id="instalogo">
+        <p>Todos os direitos reservados • 2024</p>
+        <img src="images/instagram.png" id="instalogo">
 
     </footer>
 </body>
